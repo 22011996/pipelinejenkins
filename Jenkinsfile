@@ -7,7 +7,7 @@ pipeline
 			{
 			steps
 				{
-				https://github.com/22011996/pipelinejenkins.git
+				git clone https://github.com/22011996/pipelinejenkins.git
 				}
 			}
 		stage("Run")
